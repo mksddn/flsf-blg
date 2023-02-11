@@ -1,0 +1,11 @@
+{% include /header.html %}
+
+<div class="magic-list">
+
+	{% for post in site.posts %}
+	{% include /post-preview.html %}
+	{% endfor %}
+
+</div>
+
+{% include /footer.html %}
