@@ -4,12 +4,12 @@ Options -Indexes
 RewriteEngine On
 
 RewriteCond %{HTTP:HTTPS} !=on [NC]
-RewriteRule ^(.*)$ https://phlsp.maxdudin.ru/$1 [R=301,L]
+RewriteRule ^(.*)$ https://flsf.maxdudin.ru/$1 [R=301,L]
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 
 # RewriteCond %{HTTP_HOST} .
-# RewriteCond %{HTTP_HOST} www.phlsp.maxdudin.ru [NC]
-# RewriteRule (.*) http://phlsp.maxdudin.ru/$1 [R=301,L]
+# RewriteCond %{HTTP_HOST} www.flsf.maxdudin.ru [NC]
+# RewriteRule (.*) http://flsf.maxdudin.ru/$1 [R=301,L]
 
 RewriteCond %{HTTP_USER_AGENT} wget [NC]
 RewriteRule .* - [F]
