@@ -281,9 +281,6 @@ a, a:hover {
 	max-width: 900px;
 }
 
-
-/* @media (max-width: 600px) {
-	.post-title {
-		font-size: 1.1rem;
-	}
-} */
+.scroll-progress {
+	background-color: var(--accent) !important;
+}
