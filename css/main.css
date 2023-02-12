@@ -158,6 +158,23 @@ a, a:hover {
 	color: var(--accent);
 	transition: var(--transition);
 }
+blockquote {
+	position: relative;
+	padding-left: var(--index);
+	font-style: italic;
+	margin: calc(var(--index) * 2) calc(var(--index) * 1) calc(var(--index) * 3);
+	border-bottom: 1px solid var(--accent);
+}
+blockquote:before {
+	content: '“';
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	font-size: calc(var(--index) * 4);
+	line-height: 1;
+	opacity: 0.05;
+}
 
 .fixpanel {
 	display: flex;
@@ -188,26 +205,17 @@ a, a:hover {
 	font-size: 0.8rem;
 	text-align: right;
 	margin: 0 var(--index) 0 calc(var(--index) * 5);
-	font-style: italic;
 	max-width: 600px;
+}
+.fixpanel__quote blockquote {
+	display: inline;
+	margin: 0;
+	border: none;
 }
 @media (max-width: 600px) {
 	.fixpanel__quote {
 		display: none;
 	}
-}
-.fixpanel__quote blockquote {
-	position: relative;
-}
-.fixpanel__quote blockquote:before {
-	content: '“';
-	display: block;
-	position: absolute;
-	top: -5px;
-	left: 0;
-	font-size: calc(var(--index) * 4);
-	line-height: 1;
-	opacity: 0.05;
 }
 .fixpanel__comment {
 	font-size: 0.8rem;
