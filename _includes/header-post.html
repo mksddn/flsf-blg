@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="{{ site.baseurl }}">
+
+	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description | strip_html | truncatewords: 20 }}">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content="{{ page.image }}">
+	<link rel="icon" href="{{ site.favicon }}">
+
+	<link rel="canonical" href="{{ site.url }}{{ page.url}}" />
+	<meta property="og:locale" content="ru_RU" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url}}" />
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:image" content="{{ page.image }}" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+
+	<meta name="theme-color" content="{{ site.themecolor }}">
+
+	<link rel="stylesheet" href="css/main.css">
+	<!-- <script src="js/app.js" defer></script> -->
+
+</head>
+
+<body>
+
+	<header class="fixpanel header-post">
+		<div class="fixpanel-part fixpanel__left-part">
+			<div class="fixpanel__tohome">
+				{% include /tohome-button.html %}
+			</div>
+		</div>
+		<div class="fixpanel-part fixpanel__right-part">
+			<div class="fixpanel__quote">
+				{% include /blockquote.html %}
+			</div>
+			<div class="fixpanel__contacts">
+				{% include /contacts.html %}
+			</div>
+		</div>
+	</header>

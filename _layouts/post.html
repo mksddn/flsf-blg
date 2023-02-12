@@ -1,31 +1,10 @@
-{% include /header.html %}
-
-<header class="fixpanel header-post">
-	<div class="fixpanel-part fixpanel__left-part">
-		<div class="fixpanel__tohome">
-			{% include /tohome-button.html %}
-		</div>
-	</div>
-	<div class="fixpanel-part fixpanel__right-part">
-		<div class="fixpanel__quote">
-			<blockquote>
-				<b>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Диких города рукописи
-					которое заголовок свой знаках.</b><br>
-				<span>Автор цитаты</span>
-			</blockquote>
-		</div>
-		<div class="fixpanel__contacts">
-			{% include /contacts.html %}
-		</div>
-	</div>
-</header>
+{% include /header-post.html %}
 
 <div class="post-wrapper">
 	<div class="post-title">
 		<h1>{{ page.title }}</h1>
 		<div class="post-description">
 			<span>{{ page.description }}</span>
-			<!-- {{ page.content | strip_html | truncatewords: 20 }} -->
 		</div>
 	</div>
 	<div class="post-content">
