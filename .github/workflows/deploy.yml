@@ -4,19 +4,18 @@ on:
   push:
     branches:
       - main
-
+name: 🚀 Deploy website on push
 jobs:
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      # Setup key
-      - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
-      - run: chmod 600 "$HOME/.ssh/key"
-      # Build
-      # - run: npm ci
-      # - run: npm run build
-      # Deploy
-      - run: cd _site && rsync -e "ssh -p 22 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . maxdudin_flsf@maxdudin.beget.tech:/
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: maxdudin.beget.tech
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
