@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.server_host }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: './_site/'
+        local-dir: ./_site/
