@@ -12,6 +12,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.21.12)
+    google-protobuf (3.21.12-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -74,6 +75,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.58.0-arm64-darwin)
       google-protobuf (~> 3.21)
+    sass-embedded (1.58.0-x86_64-linux-gnu)
+      google-protobuf (~> 3.21)
     sinatra (3.0.5)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
@@ -93,6 +96,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
