@@ -1,20 +1,28 @@
 title: Блог по философии
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Статьи об истории философии,ее разделах и областях. Публикации на основе практических работ при обучении на философа.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flsf.maxdudin.ru" # the base hostname & protocol for your site, e.g. http://example.com
 themecolor: '#f0f0f0'
 imagehome: img/imagehome.jpg
-favicon: img/favicon/favicon.ico
+logo: img/favicon/logo.svg
+favicon: img/favicon/logo.svg
 disclamer: Мнение автора может не совпадать с мнением читателя и не претендует на истинность, так как предоставленный материал создавался в процессе обучения
 
-# Build settings
 plugins:
   - jekyll-admin
 
-# exclude:
+jekyll_admin:
+  homepage: "posts"
+  hidden_links:
+    # - posts
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
+
+exclude:
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

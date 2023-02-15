@@ -140,7 +140,7 @@ body {
 	transition: transform var(--transition-cursor);
 }
 .magic-list__item:hover .cursor__image {
-	transform: var(--cursor-transform) scale(1);
+	transform: var(--cursor-transform) scale(0.7);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -314,6 +314,13 @@ blockquote:before {
 } */
 .post-description {
 	font-size: 140%;
+}
+.post-image {
+	margin: 0 calc(var(--index) * -1);
+}
+.post-image img {
+	width: 700px;
+	max-width: 100%;
 }
 .post-content {
 	max-width: 900px;
