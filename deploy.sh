@@ -1,4 +1,5 @@
 jekyll build
 git add -f _site
-git commit -m 'some changes'
+NOW=$(date +"%m-%d-%Y")
+git commit -m "deploy $NOW"
 git push
