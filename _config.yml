@@ -24,7 +24,7 @@ jekyll_admin:
 exclude:
   - README.md
 #   - .sass-cache/
-#   - .jekyll-cache/
+  - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock

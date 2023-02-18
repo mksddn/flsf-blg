@@ -15,12 +15,12 @@
 	<meta property="og:image" content="img/posts/002.jpg">
 	<link rel="icon" href="img/favicon/logo.svg">
 
-	<link rel="canonical" href="https://flsf.maxdudin.ru/welcome-to-jekyll-copy.html" />
+	<link rel="canonical" href="http://localhost:4000/welcome-to-jekyll-copy.html" />
 	<meta property="og:locale" content="ru_RU" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Аристотель и Фома Аквинский о государстве" />
 	<meta property="og:description" content="Сравнительный анализ античной и средневековой философии (я честно планировал спрятать его под спойлером, чтобы уложиться в обусловленные 2 страницы, но не сумел настроить скрытие текста)" />
-	<meta property="og:url" content="https://flsf.maxdudin.ru/welcome-to-jekyll-copy.html" />
+	<meta property="og:url" content="http://localhost:4000/welcome-to-jekyll-copy.html" />
 	<meta property="og:site_name" content="Блог по философии" />
 	<meta property="og:image" content="img/posts/002.jpg" />
 	<meta property="og:image:width" content="1200" />
@@ -28,7 +28,7 @@
 
 	<meta name="theme-color" content="#f0f0f0">
 
-	<link rel="stylesheet" href="https://flsf.maxdudin.ru/css/main.css">
+	<link rel="stylesheet" href="http://localhost:4000/css/main.css">
 	<!-- <script src="js/app.js" defer></script> -->
 
 </head>
@@ -52,10 +52,28 @@
 		<div class="fixpanel-part fixpanel__right-part">
 			<div class="fixpanel__quote">
 				<blockquote>
-  <b>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Диких города рукописи
-    которое заголовок свой знаках.</b><br>
-  <span>Автор цитаты</span>
+  <b id="bq_text"></b><br>
+  <span id="bq_author"></span>
 </blockquote>
+<script>
+  const bqs = [
+    {
+      text: 'Cogito ergo sum (Я мыслю, следовательно, существую)',
+      author: 'Рене Декарт'
+    },
+    {
+      text: 'Человеку, исследующему истину, необходимо хоть один раз в жизни усомниться во всех вещах',
+      author: 'Рене Декарт'
+    },
+    {
+      text: 'Говори в соответствии с уровнем восприятия простого народа',
+      author: 'Бенедикт (Барух) Спиноза'
+    },
+  ],
+    bq = bqs[Math.floor(Math.random() * bqs.length)]
+  document.querySelector('#bq_text').innerText = bq.text
+  document.querySelector('#bq_author').innerText = bq.author
+</script>
 			</div>
 			<div class="fixpanel__contacts">
 				<div class="social-icons">

@@ -1,5 +1,23 @@
 <blockquote>
-  <b>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Диких города рукописи
-    которое заголовок свой знаках.</b><br>
-  <span>Автор цитаты</span>
+  <b id="bq_text"></b><br>
+  <span id="bq_author"></span>
 </blockquote>
+<script>
+  const bqs = [
+    {
+      text: 'Cogito ergo sum (Я мыслю, следовательно, существую)',
+      author: 'Рене Декарт'
+    },
+    {
+      text: 'Человеку, исследующему истину, необходимо хоть один раз в жизни усомниться во всех вещах',
+      author: 'Рене Декарт'
+    },
+    {
+      text: 'Говори в соответствии с уровнем восприятия простого народа',
+      author: 'Бенедикт (Барух) Спиноза'
+    },
+  ],
+    bq = bqs[Math.floor(Math.random() * bqs.length)]
+  document.querySelector('#bq_text').innerText = bq.text
+  document.querySelector('#bq_author').innerText = bq.author
+</script>
