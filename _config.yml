@@ -5,8 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flsf.maxdudin.ru" # the base hostname & protocol for your site, e.g. http://example.com
 themecolor: '#f0f0f0'
 imagehome: img/imagehome.jpg
-logo: img/favicon/logo.svg
-favicon: img/favicon/logo.svg
+logo: img/logo.svg
+favicon: img/logo.svg
 disclamer: Мнение автора может не совпадать с мнением читателя и не претендует на истинность, так как предоставленный материал создавался в процессе обучения
 
 plugins:

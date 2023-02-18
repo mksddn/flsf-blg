@@ -275,14 +275,14 @@ blockquote:before {
 .social-icons a {
 	text-decoration: none;
 }
-.social-icons svg {
+.social-icons img {
 	width: 1.3rem;
 	height: 1.3rem;
 	margin: 0 .5rem;
 	fill: var(--black);
 	transition: var(--transition);
 }
-.social-icons a:hover svg {
+.social-icons a:hover img {
 	fill: var(--accent);
 }
 

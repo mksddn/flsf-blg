@@ -1,6 +1,6 @@
 <blockquote>
-  <b id="bq_text"></b><br>
-  <span id="bq_author"></span>
+  <b class="bq__text"></b><br>
+  <span class="bq__author"></span>
 </blockquote>
 <script>
   const bqs = [
@@ -18,6 +18,6 @@
     },
   ],
     bq = bqs[Math.floor(Math.random() * bqs.length)]
-  document.querySelector('#bq_text').innerText = bq.text
-  document.querySelector('#bq_author').innerText = bq.author
+  document.querySelector('.bq__text').innerText = bq.text
+  document.querySelector('.bq__author').innerText = bq.author
 </script>
