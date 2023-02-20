@@ -1,9 +1,15 @@
 ---
 title: Философы Нового времени
 layout: post
-description: Описание
+description: Ментальная карта с указанием школ философии Нового времени и выдающимися
+  философами эпохи Научной революции
 permalink: "/:slug.html"
 image: img/posts/003.jpg
 ---
 
-<iframe src="https://www.xmind.net/m/es4Fna" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
+Школы:
+
+
+Философы
+
+<iframe src='https://www.xmind.app/embed/4EVMK8/' width='750' height='620' frameborder='0' scrolling='no' allowfullscreen="true"></iframe>
