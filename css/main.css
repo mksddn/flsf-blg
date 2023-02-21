@@ -296,7 +296,7 @@ blockquote:before {
 }
 .post-title {
 	font-family: arsenal_f, sans-serif;
-	max-width: 1200px;
+	max-width: 900px;
 	/* font-size: var(--index); */
 	line-height: 1.2;
 	text-align: center;
@@ -316,7 +316,7 @@ blockquote:before {
 	font-size: 140%;
 }
 .post-image {
-	margin: 0 calc(var(--index) * -1);
+	margin: 0 calc(var(--index) * -1) var(--index);
 }
 .post-image img {
 	width: 700px;
@@ -324,7 +324,17 @@ blockquote:before {
 }
 .post-content {
 	max-width: 900px;
+	margin-bottom: calc(var(--index) * 2);
 }
+.post-share {
+	border: 1px solid var(--accent);
+	padding: 0 var(--index) calc(var(--index) * 2);
+	margin-top: calc(var(--index) * 2);
+}
+.ya-share2__container.ya-share2__container_color-scheme_whiteblack .ya-share2__badge,
+  .ya-share2__container.ya-share2__container_color-scheme_whiteblack .ya-share2__mobile-popup-badge {
+    background-color: transparent !important;
+  }
 
 .scroll-progress {
 	background-color: var(--accent) !important;
