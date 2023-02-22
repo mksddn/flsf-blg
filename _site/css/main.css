@@ -173,6 +173,9 @@ body {
 	.magic-list__item:hover .cursor {
 		height: calc(var(--index) * 12);
 	}
+	.cursor, .cursor__image, .magic-list__item:hover .cursor__image {
+		transform: none;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
