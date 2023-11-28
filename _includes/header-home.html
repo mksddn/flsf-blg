@@ -6,7 +6,12 @@
 	<meta charset="utf-8">
 	<base href="{{ site.baseurl }}">
 
+	{% if page.url == "/404.html" %}
+	<title>Страница не найдена - {{ site.title }}</title>
+	{% else %}
 	<title>{{ site.title }}</title>
+	{% endif %}
+
 	<meta name="description" content="{{ site.description | strip_html | truncatewords: 20  }}">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">

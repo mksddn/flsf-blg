@@ -1,5 +1,7 @@
 {% include /header-home.html %}
 
+{% if page.url == "/" %}
+
 <div class="magic-list">
 
 	{% for post in site.posts reversed %}
@@ -7,5 +9,11 @@
 	{% endfor %}
 
 </div>
+
+{% else %}
+
+{{ content }}
+
+{% endif %}
 
 {% include /footer-home.html %}
