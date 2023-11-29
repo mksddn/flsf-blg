@@ -154,7 +154,7 @@ body {
 		width: 100%;
 	}
 	.cursor {
-		height: calc(var(--index) * 12);
+		height: calc(var(--index) * 20);
     width: 100%;
     position: relative;
     left: 0;
@@ -175,6 +175,12 @@ body {
 	}
 	.cursor, .cursor__image, .magic-list__item:hover .cursor__image {
 		transform: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.cursor {
+		height: calc(var(--index) * 16);
 	}
 }
 
