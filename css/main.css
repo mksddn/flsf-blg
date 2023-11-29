@@ -143,7 +143,7 @@ body {
 	transform: var(--cursor-transform) scale(0.7);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
 	.magic-list {
 		padding: 0;
 	}
@@ -227,7 +227,7 @@ blockquote:before {
 	z-index: 1;
 	line-height: 1.2;
 }
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
 	.fixpanel.footer {
 		flex-wrap: wrap;
 	}
@@ -281,9 +281,21 @@ blockquote:before {
 	margin: 0;
 	border: none;
 }
+@media (max-width: 1200px) {
+	.fixpanel__quote {
+		max-width: 380px;
+		margin: 0 var(--index);
+	}
+	header .fixpanel__contacts {
+		width: 100px;
+	}
+}
 @media (max-width: 600px) {
 	.fixpanel__quote {
 		display: none;
+	}
+	header .fixpanel__contacts {
+		width: auto;
 	}
 }
 .fixpanel__comment {

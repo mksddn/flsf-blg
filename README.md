@@ -5,6 +5,7 @@
 ### [LIVE DEMO](https://flsf.maxdudin.ru/)
 
 - Генератор статических сайтов `Jekyll`.
+- CI/CD FTP Deploy.
 
 > Inspired by [agragregra](https://webdesign-master.ru/blog/html-css/create-parallax-mouse-website.html)
 
