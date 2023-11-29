@@ -9,6 +9,6 @@
 > Inspired by [agragregra](https://webdesign-master.ru/blog/html-css/create-parallax-mouse-website.html)
 
 
-~ gem install bundler jekyll
-~ bundle exec jekyll serve
-browse to http://localhost:4000
+ 1. ~ gem install bundler jekyll
+ 2. ~ bundle exec jekyll serve
+ 3. browse to http://localhost:4000
