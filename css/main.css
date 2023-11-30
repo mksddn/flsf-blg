@@ -217,10 +217,10 @@ body {
 		font-size: 140%;
 	}
 
-	.cursor,
+	/* .cursor,
 	.magic-list__item:hover .cursor {
 		height: calc(var(--index) * 16) !important;
-	}
+	} */
 }
 
 h1,
