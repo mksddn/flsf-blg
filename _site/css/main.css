@@ -214,12 +214,12 @@ body {
 
 @media (max-width: 600px) {
 	.magic-list__header {
-		font-size: calc(var(--index) * 2);
+		font-size: 140%;
 	}
 
 	.cursor,
 	.magic-list__item:hover .cursor {
-		height: calc(var(--index) * 16);
+		height: calc(var(--index) * 16) !important;
 	}
 }
 
