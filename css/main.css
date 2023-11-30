@@ -181,7 +181,7 @@ body {
 	}
 
 	.cursor {
-		height: calc(var(--index) * 20);
+		height: calc(var(--index) * 16);
 		width: 100%;
 		position: relative;
 		left: 0;
@@ -202,7 +202,7 @@ body {
 	}
 
 	.magic-list__item:hover .cursor {
-		height: calc(var(--index) * 20);
+		height: calc(var(--index) * 16);
 	}
 
 	.cursor,
@@ -212,16 +212,16 @@ body {
 	}
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	.magic-list__header {
 		font-size: 140%;
 	}
 
-	/* .cursor,
+	.cursor,
 	.magic-list__item:hover .cursor {
-		height: calc(var(--index) * 16) !important;
-	} */
-}
+		height: calc(var(--index) * 16);
+	}
+} */
 
 h1,
 h2,
