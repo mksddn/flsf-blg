@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://flsf.maxdudin.ru/nicshe-o-sverkhcheloveke-religii-i-dukhovnom-razvitii.html</loc>
+    <loc>http://localhost:4000/nicshe-o-sverkhcheloveke-religii-i-dukhovnom-razvitii.html</loc>
     <lastmod>2023-11-28T00:00:00+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/kategoricheskij-imperativ-kanta.html</loc>
+    <loc>http://localhost:4000/kategoricheskij-imperativ-kanta.html</loc>
     <lastmod>2023-06-15T00:00:00+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/filosofy-novogo-vremeni.html</loc>
+    <loc>http://localhost:4000/filosofy-novogo-vremeni.html</loc>
     <lastmod>2023-02-13T00:00:00+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/aristotel-i-foma-akvinskij-o-gosudarstve.html</loc>
+    <loc>http://localhost:4000/aristotel-i-foma-akvinskij-o-gosudarstve.html</loc>
     <lastmod>2023-01-11T00:00:00+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/zakony-logiki-i-formy-pravilnogo-myshleniya.html</loc>
+    <loc>http://localhost:4000/zakony-logiki-i-formy-pravilnogo-myshleniya.html</loc>
     <lastmod>2022-12-29T00:00:00+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://flsf.maxdudin.ru/404.html</loc>
-    <lastmod>2023-11-30T10:10:06+03:00</lastmod>
+    <loc>http://localhost:4000/404.html</loc>
+    <lastmod>2023-12-30T09:23:02+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/</loc>
-    <lastmod>2023-11-30T10:10:06+03:00</lastmod>
+    <loc>http://localhost:4000/</loc>
+    <lastmod>2023-12-30T09:23:02+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/sitemap.xml</loc>
-    <lastmod>2023-11-30T10:10:06+03:00</lastmod>
+    <loc>http://localhost:4000/sitemap.xml</loc>
+    <lastmod>2023-12-30T09:23:02+03:00</lastmod>
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/feed.xml</loc>
-    <lastmod>2023-11-30T10:10:06+03:00</lastmod>
+    <loc>http://localhost:4000/feed.xml</loc>
+    <lastmod>2023-12-30T09:23:02+03:00</lastmod>
   </url>
   
 </urlset>
