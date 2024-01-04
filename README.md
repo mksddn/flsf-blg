@@ -13,3 +13,4 @@
  1. ~ gem install bundler jekyll
  2. ~ bundle exec jekyll serve
  3. browse to http://localhost:4000
+ 4. ~ bundle exec jekyll build
