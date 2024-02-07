@@ -161,4 +161,4 @@ image: img/posts/003.jpg
 #### Интерактивная схема-карта (майндмэп) 👇
 <br>
 
-<iframe src='https://www.xmind.app/embed/4EVMK8/' width='100%' height='620' frameborder='0' scrolling='no' allowfullscreen="true"></iframe>
+<iframe src='https://www.xmind.app/embed/es4Fna/' width='100%' height='620' frameborder='0' scrolling='no' allowfullscreen="true"></iframe>

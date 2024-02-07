@@ -471,3 +471,7 @@ blockquote:before {
 .scroll-progress {
 	background-color: var(--accent) !important;
 }
+
+details {
+	cursor: pointer;
+}
