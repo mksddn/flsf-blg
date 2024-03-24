@@ -475,3 +475,14 @@ blockquote:before {
 details {
 	cursor: pointer;
 }
+
+table {
+  border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+th, td {
+  border: 1px solid;
+	padding: 10px;
+}
