@@ -480,6 +480,7 @@ details {
 }
 
 table {
+	display: inline-block;
   border-collapse: collapse;
 	max-width: 100%;
 	margin-bottom: 2rem;
