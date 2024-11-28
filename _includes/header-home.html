@@ -43,8 +43,11 @@
 	<header class="fixpanel header-post">
 		<div class="fixpanel-part fixpanel__left-part">
 			<div class="fixpanel__tohome">
+				{% if page.url == "/404.html" %}
+				{% include /tohome-button.html %}
+				{% else %}
 				<img class="logo" src="img/logo.svg" alt="{{ site.title }}">
-				<h1 class="fixpanel__site-title">{{ site.title }}</h1>
+				{% endif %}
 			</div>
 		</div>
 		<div class="fixpanel-part fixpanel__right-part">
