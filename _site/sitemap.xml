@@ -1,58 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
     <loc>https://flsf.maxdudin.ru/bakunin-i-ego-anarchizm.html</loc>
     <lastmod>2025-05-15T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/009.jpg</image:loc>
+      <image:title>Бакунин и его анархизм</image:title>
+      <image:caption>«Государство - зло, но зло историческое необходимое». Статья о неоднозначной личности М.А. Бакунина и его анархо-народничестве.</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/v-kakom-napravlenii-stanet-razvivatsya-filosofiya-v-xxi-veke.html</loc>
     <lastmod>2024-11-17T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/008.jpg</image:loc>
+      <image:title>В каком направлении станет развиваться философия в XXI веке?</image:title>
+      <image:caption>Прошла уже четверть века и стали очевидны тренды, которые получат развитие в будущем. Очерчены проблемы и задачи, которые предстоит решать философам будущего.</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/chto-takoe-postmodern-i-pochemu-raznye-pokoleniya-ne-ponimayut-drug-druga.html</loc>
     <lastmod>2024-03-24T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/007.jpg</image:loc>
+      <image:title>Что такое постмодерн и почему разные поколения не понимают друг друга</image:title>
+      <image:caption>Какие бывают модерны и в чем их отличия? Как различается сознание людей в определенные исторические периоды и почему разным поколениям так сложно найти общий язык?</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/germenevticheskij-analiz-na-primere-tolkovaniya-fragmenta-iz-alisy-v-strane-chudes.html</loc>
     <lastmod>2024-02-07T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/006.jpg</image:loc>
+      <image:title>Герменевтика на примере толкования фрагмента из «Алисы в стране чудес»</image:title>
+      <image:caption>3 разных философских трактовки фрагмента произведения Льюиса Кэрролла</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/nicshe-o-sverkhcheloveke-religii-i-dukhovnom-razvitii.html</loc>
     <lastmod>2023-11-28T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/005.jpg</image:loc>
+      <image:title>Ницше о Сверхчеловеке, религии и духовном развитии</image:title>
+      <image:caption>Краткий реферативный обзор «Так говорил Заратустра» Ф. Ницше</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/kategoricheskij-imperativ-kanta.html</loc>
     <lastmod>2023-06-15T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/004.jpg</image:loc>
+      <image:title>Категорический императив Канта</image:title>
+      <image:caption>Эссе по теме категорического императива Канта и его этической концепции</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/filosofy-novogo-vremeni.html</loc>
     <lastmod>2023-02-13T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/003.jpg</image:loc>
+      <image:title>Философы Нового времени</image:title>
+      <image:caption>Ментальная карта с указанием школ философии Нового времени и выдающимися философами эпохи Научной революции</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/aristotel-i-foma-akvinskij-o-gosudarstve.html</loc>
     <lastmod>2023-01-11T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/002.jpg</image:loc>
+      <image:title>Аристотель и Фома Аквинский о государстве</image:title>
+      <image:caption>Сравнительный анализ античной и средневековой философии</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/zakony-logiki-i-formy-pravilnogo-myshleniya.html</loc>
     <lastmod>2022-12-29T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/001.jpg</image:loc>
+      <image:title>Законы логики и формы правильного мышления</image:title>
+      <image:caption>Объективные принципы и правила мышления, соблюдение которых всегда приводит рассуждение к правильным выводам</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
   </url>
   
   <url>
     <loc>https://flsf.maxdudin.ru/404.html</loc>
-    <lastmod>2025-05-21T09:15:25+03:00</lastmod>
+    <lastmod>2025-05-21T09:33:42+03:00</lastmod>
+    
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    
+    
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/</loc>
-    <lastmod>2025-05-21T09:15:25+03:00</lastmod>
+    <lastmod>2025-05-21T09:33:42+03:00</lastmod>
+    
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    
+    
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/sitemap.xml</loc>
-    <lastmod>2025-05-21T09:15:25+03:00</lastmod>
+    <lastmod>2025-05-21T09:33:42+03:00</lastmod>
+    
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    
+    
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/feed.xml</loc>
-    <lastmod>2025-05-21T09:15:25+03:00</lastmod>
+    <lastmod>2025-05-21T09:33:42+03:00</lastmod>
+    
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    
+    
   </url>
   
 </urlset>

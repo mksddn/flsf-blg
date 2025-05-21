@@ -1,1 +1,22 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /img/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+Disallow: /_site/
+Disallow: /.jekyll-cache/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /_plugins/
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /.sass-cache/
+Disallow: /node_modules/
+Disallow: /vendor/
+
+Crawl-delay: 10
+
 Sitemap: https://flsf.maxdudin.ru/sitemap.xml

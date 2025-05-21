@@ -2,16 +2,40 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   {% for post in site.posts %}{% unless post.published == false %}<url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     {% if post.date %}<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>{% endif %}
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    {% if post.image %}<image:image>
+      <image:loc>{{ site.url }}/{{ post.image }}</image:loc>
+      <image:title>{{ post.title }}</image:title>
+      <image:caption>{{ post.description }}</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>{% endif %}
   </url>{% endunless %}
   {% endfor %}
   {% for page in site.pages %}<url>
     <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
     {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
+    {% if page.url == "/" %}
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    {% else %}
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    {% endif %}
+    {% if page.image %}<image:image>
+      <image:loc>{{ site.url }}/{{ page.image }}</image:loc>
+      <image:title>{{ page.title }}</image:title>
+      <image:caption>{{ page.description }}</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>{% endif %}
   </url>
   {% endfor %}
 </urlset>
