@@ -34,3 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-admin', group: :jekyll_plugins
 gem "webrick", "~> 1.8"
+gem "logger", "~> 1.6"
+gem "csv", "~> 3.3"

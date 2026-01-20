@@ -10,7 +10,31 @@
 > Inspired by [agragregra](https://webdesign-master.ru/blog/html-css/create-parallax-mouse-website.html)
 
 
- 1. ~ gem install bundler jekyll
- 2. ~ bundle exec jekyll serve
- 3. browse to http://localhost:4000
- 4. ~ bundle exec jekyll build
+## Установка и запуск
+
+1. Установите Ruby 3.3 через rbenv:
+   ```bash
+   brew install rbenv ruby-build
+   echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+   source ~/.zshrc
+   rbenv install 3.3.6
+   rbenv local 3.3.6
+   ```
+
+2. Установите зависимости:
+   ```bash
+   gem install bundler
+   bundle install
+   ```
+
+3. Запустите локальный сервер:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Откройте в браузере: http://localhost:4000
+
+5. Для сборки сайта:
+   ```bash
+   bundle exec jekyll build
+   ```
