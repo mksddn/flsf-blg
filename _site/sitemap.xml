@@ -10,7 +10,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/010.jpg</image:loc>
       <image:title>Логика против слоганов, или почему реклама не обязана быть истинной</image:title>
-      <image:caption>Разберем некоторые известные слоганы на предмет их истинности и правдоподобности. Рекламный слоган — это странный гибрид философского тезиса, бытового совета и поэтической метафоры.</image:caption>
+      <image:caption>Разберем известные слоганы на предмет их правдоподобности и определим, какого основания им не хватает для истинности. Найдем скрытую энтимему и допишем недостающую часть силлогизма.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -135,7 +135,7 @@
   
   <url>
     <loc>https://flsf.maxdudin.ru/404.html</loc>
-    <lastmod>2026-01-20T19:06:12+03:00</lastmod>
+    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
     
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -144,7 +144,7 @@
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/</loc>
-    <lastmod>2026-01-20T19:06:12+03:00</lastmod>
+    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
     
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
@@ -153,7 +153,7 @@
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/sitemap.xml</loc>
-    <lastmod>2026-01-20T19:06:12+03:00</lastmod>
+    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
     
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://flsf.maxdudin.ru/feed.xml</loc>
-    <lastmod>2026-01-20T19:06:12+03:00</lastmod>
+    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
     
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
