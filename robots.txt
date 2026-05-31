@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /posts/
 Allow: /img/
 Allow: /css/
 Allow: /js/

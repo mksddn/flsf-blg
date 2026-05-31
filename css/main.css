@@ -1,18 +1,21 @@
 @font-face {
 	font-family: arsenal_f;
 	src: url(../fonts/Arsenal-Regular.woff2);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: arsenal_f;
 	src: url(../fonts/Arsenal-Italic.woff2);
 	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: arsenal_f;
 	src: url(../fonts/Arsenal-Bold.woff2);
 	font-weight: bold;
+	font-display: swap;
 }
 
 @font-face {
@@ -20,23 +23,27 @@
 	src: url(../fonts/Arsenal-BoldItalic.woff2);
 	font-weight: bold;
 	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: ptserif_f;
 	src: url(../fonts/PTSerif-Regular.woff2);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: ptserif_f;
 	src: url(../fonts/PTSerif-Italic.woff2);
 	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: ptserif_f;
 	src: url(../fonts/PTSerif-Bold.woff2);
 	font-weight: bold;
+	font-display: swap;
 }
 
 @font-face {
@@ -44,6 +51,7 @@
 	src: url(../fonts/PTSerif-BoldItalic.woff2);
 	font-weight: bold;
 	font-style: italic;
+	font-display: swap;
 }
 
 * {
@@ -481,13 +489,13 @@ details {
 
 table {
 	display: inline-block;
-  border-collapse: collapse;
+	border-collapse: collapse;
 	max-width: 100%;
 	margin-bottom: 2rem;
 	overflow: scroll;
 }
 
 th, td {
-  border: 1px solid;
+	border: 1px solid;
 	padding: 10px;
 }
