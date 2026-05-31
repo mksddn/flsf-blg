@@ -3,6 +3,19 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
+    <loc>https://flsf.maxdudin.ru/ispytanie-kak-uslovie-stanovleniya-ontologicheskie-motivy-v-pesne-zero-people-beda.html</loc>
+    <lastmod>2026-05-31T00:00:00+03:00</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://flsf.maxdudin.ru/img/posts/011.jpg</image:loc>
+      <image:title>Испытание как условие становления: онтология в песне Zero People «Беда»</image:title>
+      <image:caption>Философский разбор песни Zero People «Беда»: вес существования, испытание как становление личности и может ли быть легкое подлинное бытие.</image:caption>
+      <image:width>1200</image:width>
+      <image:height>630</image:height>
+    </image:image>
+  </url>
+  <url>
     <loc>https://flsf.maxdudin.ru/logika-protiv-sloganov-ili-pochemu-reklama-ne-obyazana-byt-istinnoj.html</loc>
     <lastmod>2026-01-20T00:00:00+03:00</lastmod>
     <priority>0.8</priority>
@@ -10,7 +23,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/010.jpg</image:loc>
       <image:title>Логика против слоганов, или почему реклама не обязана быть истинной</image:title>
-      <image:caption>Разберем известные слоганы на предмет их правдоподобности и определим, какого основания им не хватает для истинности. Найдем скрытую энтимему и допишем недостающую часть силлогизма.</image:caption>
+      <image:caption>Почему рекламные слоганы кажутся убедительными, но не обязаны быть истинными — разбор энтимем и скрытых логических ошибок на примерах.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -23,7 +36,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/009.jpg</image:loc>
       <image:title>Бакунин и его анархизм</image:title>
-      <image:caption>«Государство - зло, но зло историческое необходимое». Статья о неоднозначной личности М.А. Бакунина и его анархо-народничестве.</image:caption>
+      <image:caption>Кто такой Бакунин, что такое анархо-народничество и почему «государство — зло, но исторически необходимое» — статья о его идеях и политической философии.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -36,7 +49,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/008.jpg</image:loc>
       <image:title>В каком направлении станет развиваться философия в XXI веке?</image:title>
-      <image:caption>Прошла уже четверть века и стали очевидны тренды, которые получат развитие в будущем. Очерчены проблемы и задачи, которые предстоит решать философам будущего.</image:caption>
+      <image:caption>Куда движется философия в XXI веке: тренды, вызовы и задачи — от биоэтики до философии сознания и цифровой эпохи.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -49,7 +62,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/007.jpg</image:loc>
       <image:title>Что такое постмодерн и почему разные поколения не понимают друг друга</image:title>
-      <image:caption>Какие бывают модерны и в чем их отличия? Как различается сознание людей в определенные исторические периоды и почему разным поколениям так сложно найти общий язык?</image:caption>
+      <image:caption>Что такое постмодерн простыми словами и почему поколения с разной картиной мира так плохо понимают друг друга в эпоху перемен.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -62,7 +75,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/006.jpg</image:loc>
       <image:title>Герменевтика на примере толкования фрагмента из «Алисы в стране чудес»</image:title>
-      <image:caption>3 разных философских трактовки фрагмента произведения Льюиса Кэрролла</image:caption>
+      <image:caption>Три разных философских прочтения фрагмента «Алисы в стране чудес» — наглядный пример герменевтического анализа текста.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -75,7 +88,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/005.jpg</image:loc>
       <image:title>Ницше о Сверхчеловеке, религии и духовном развитии</image:title>
-      <image:caption>Краткий реферативный обзор «Так говорил Заратустра» Ф. Ницше</image:caption>
+      <image:caption>Сверхчеловек, вечное возвращение и критика религии в «Так говорил Заратустра» — краткий обзор ключевых идей Ницше для читателя.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -88,7 +101,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/004.jpg</image:loc>
       <image:title>Категорический императив Канта</image:title>
-      <image:caption>Эссе по теме категорического императива Канта и его этической концепции</image:caption>
+      <image:caption>Что такое категорический императив Канта, чем он отличается от «золотого правила» и можно ли жить только по нему — разбор простым языком.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -101,7 +114,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/003.jpg</image:loc>
       <image:title>Философы Нового времени</image:title>
-      <image:caption>Ментальная карта с указанием школ философии Нового времени и выдающимися философами эпохи Научной революции</image:caption>
+      <image:caption>Школы и ключевые философы Нового времени: от рационализма до эмпиризма. Карта идей эпохи Научной революции для начинающих.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -114,7 +127,7 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/002.jpg</image:loc>
       <image:title>Аристотель и Фома Аквинский о государстве</image:title>
-      <image:caption>Сравнительный анализ античной и средневековой философии</image:caption>
+      <image:caption>Сравниваем взгляды Аристотеля и Фомы Аквинского на государство, закон и общее благо — античная и средневековая политическая философия простым языком.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
@@ -127,47 +140,239 @@
     <image:image>
       <image:loc>https://flsf.maxdudin.ru/img/posts/001.jpg</image:loc>
       <image:title>Законы логики и формы правильного мышления</image:title>
-      <image:caption>Объективные принципы и правила мышления, соблюдение которых всегда приводит рассуждение к правильным выводам</image:caption>
+      <image:caption>Законы логики и формы правильного мыслительного рассуждения простым языком — как строить верные выводы и не путать истину с убеждённостью.</image:caption>
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>
   </url>
   
-  <url>
-    <loc>https://flsf.maxdudin.ru/404.html</loc>
-    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
-    
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    
-    
-  </url>
+  
   <url>
     <loc>https://flsf.maxdudin.ru/</loc>
-    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
     
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
     
     
   </url>
+  
   <url>
-    <loc>https://flsf.maxdudin.ru/sitemap.xml</loc>
-    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
+    <loc>https://flsf.maxdudin.ru/tag/logika.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
     
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
     
     
   </url>
   <url>
-    <loc>https://flsf.maxdudin.ru/feed.xml</loc>
-    <lastmod>2026-01-21T10:57:40+03:00</lastmod>
+    <loc>https://flsf.maxdudin.ru/tag/kriticheskoe-myshlenie.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
     
-    <priority>0.7</priority>
+    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
     
     
   </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/formalnaya-logika.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/politicheskaya-filosofiya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/istoriya-filosofii.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/etika.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/novoe-vremya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/prosveschenie.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/moral.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/kant.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/nitsshe.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/ekzistentsializm.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/germenevtika.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/filosofiya-kultury.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/interpretatsiya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/postmodern.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/sovremennaya-filosofiya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/kultura.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/xxi-vek.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/buduschee.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/anarhizm.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/bakunin.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/argumentatsiya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  <url>
+    <loc>https://flsf.maxdudin.ru/tag/ontologiya.html</loc>
+    <lastmod>2026-05-31T20:54:50+03:00</lastmod>
+    
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    
+    
+  </url>
+  
   
 </urlset>

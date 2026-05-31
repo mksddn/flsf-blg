@@ -1,0 +1,28 @@
+{%- assign related_count = 0 -%}
+{%- assign related_posts = "" | split: "" -%}
+
+{%- for post in site.posts -%}
+  {%- if post.url != page.url and related_count < 3 -%}
+    {%- assign matched = false -%}
+    {%- for tag in page.tags -%}
+      {%- if post.tags contains tag -%}
+        {%- assign matched = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if matched -%}
+      {%- assign related_posts = related_posts | push: post -%}
+      {%- assign related_count = related_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if related_posts.size > 0 -%}
+<div class="related-posts">
+	<h3>Читайте также</h3>
+	<ul>
+		{%- for post in related_posts -%}
+		<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+		{%- endfor -%}
+	</ul>
+</div>
+{%- endif -%}

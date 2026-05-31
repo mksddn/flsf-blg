@@ -1,40 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 
 	<meta charset="utf-8">
-	<base href="{{ site.baseurl }}">
 
-	{% if page.url == "/404.html" %}
-	<title>Страница не найдена - {{ site.title }}</title>
-	{% else %}
-	<title>{{ site.title }}</title>
-	{% endif %}
-
-	<meta name="description" content="{{ site.description | strip_html | truncatewords: 20  }}">
+	{% include /head-seo.html %}
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="yandex-verification" content="ae1f2d541f578df3" />
-	<meta property="og:image" content="{{ site.imagehome }}">
-	<link rel="icon" href="{{ site.favicon }}">
-
-	<link rel="canonical" href="{{ site.url }}" />
-	<meta property="og:locale" content="ru_RU" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="{{ site.title }}" />
-	<meta property="og:description" content="{{ site.description }}" />
-	<meta property="og:url" content="{{ site.url }}" />
-	<meta property="og:site_name" content="{{ site.title }}" />
-	<meta property="og:image" content="{{ site.imagehome }}" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="630" />
+	<link rel="icon" href="{{ site.favicon | relative_url }}">
+	<link rel="apple-touch-icon" href="{{ site.favicon | relative_url }}">
 
 	<meta name="theme-color" content="{{ site.themecolor }}">
 
-	<link rel="stylesheet" href="{{ site.url }}/css/main.css">
-	<!-- <script src="js/app.js" defer></script> -->
+	<link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 
 </head>
 
@@ -46,7 +27,9 @@
 				{% if page.url == "/404.html" %}
 				{% include /tohome-button.html %}
 				{% else %}
-				<img class="logo" src="img/logo.svg" alt="{{ site.title }}">
+				<a href="{{ '/' | relative_url }}" class="tohome">
+					<img class="logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}" width="32" height="32">
+				</a>
 				{% endif %}
 			</div>
 		</div>

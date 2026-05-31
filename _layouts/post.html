@@ -6,12 +6,21 @@
 		<div class="post-description">
 			<span>{{ page.description }}</span>
 		</div>
+		{% if page.tags %}
+		<div class="post-tags">
+			{% for tag in page.tags %}
+			{% capture tag_path %}/tag/{{ tag | tag_slug }}.html{% endcapture %}
+			<a href="{{ tag_path | relative_url }}" class="post-tags__item">{{ tag }}</a>
+			{% endfor %}
+		</div>
+		{% endif %}
 	</div>
 	<div class="post-image">
-		<img src="{{ page.image }}" alt="{{ page.title }}">
+		<img src="{{ page.image | relative_url }}" alt="{{ page.title }}" width="{{ page.image_width }}" height="{{ page.image_height }}">
 	</div>
 	<div class="post-content">
 		{{ content }}
+		{% include /related-posts.html %}
 		<div class="post-share">
 			{% include /share.html %}
 		</div>
