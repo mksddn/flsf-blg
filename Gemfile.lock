@@ -13,6 +13,7 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.24.4)
+    google-protobuf (3.24.4-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -76,6 +77,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.69.5-arm64-darwin)
       google-protobuf (~> 3.23)
+    sass-embedded (1.69.5-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
@@ -95,6 +98,7 @@ GEM
 
 PLATFORMS
   arm64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   csv (~> 3.3)
@@ -119,6 +123,7 @@ CHECKSUMS
   ffi (1.16.3) sha256=6d3242ff10c87271b0675c58d68d3f10148fabc2ad6da52a18123f06078871fb
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   google-protobuf (3.24.4) sha256=38a403ca2fd905d3ed7c20f8d2e4718af1be3eb99093d35d7021383f6e72f2ca
+  google-protobuf (3.24.4-x86_64-linux)
   http_parser.rb (0.8.0) sha256=5a0932f1fa82ce08a8516a2685d5a86031c000560f89946913c555a0697544be
   i18n (1.14.1) sha256=9d03698903547c060928e70a9bc8b6b87fda674453cda918fc7ab80235ae4a61
   jekyll (4.3.2) sha256=5d336d3e9eeaed7e69cf8b938da02bb72ae3afb226208df514036d69654f7771
@@ -147,6 +152,7 @@ CHECKSUMS
   ruby2_keywords (0.0.5) sha256=ffd13740c573b7301cf7a2e61fc857b2a8e3d3aff32545d6f8300d8bae10e3ef
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass-embedded (1.69.5-arm64-darwin) sha256=650a07c4bdea2190ff029a0ff34018c3ae2a692ab4a5b7d31a35f51c1273ac53
+  sass-embedded (1.69.5-x86_64-linux-gnu)
   sinatra (3.1.0) sha256=e89e7352a9e5cacf89d52ad4e47acc4e25b5cda7b87747a3ad01eaeb2d0ba400
   sinatra-contrib (3.1.0) sha256=3c3c50b531cf156016997cb4c5d8466de381c0019c6d45ccaf5a2e004229b8b6
   terminal-table (3.0.2) sha256=f951b6af5f3e00203fb290a669e0a85c5dd5b051b3b023392ccfd67ba5abae91
