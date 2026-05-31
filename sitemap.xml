@@ -19,12 +19,15 @@ layout: null
     </image:image>{% endif %}
   </url>{% endunless %}
   {% endfor %}
-  {% for page in site.pages %}<url>
+  {% for page in site.pages %}{% unless page.url contains '404' or page.url contains 'sitemap' or page.url contains 'feed' %}<url>
     <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
     {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
     {% if page.url == "/" %}
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
+    {% elsif page.url contains '/tag/' %}
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
     {% else %}
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -36,6 +39,6 @@ layout: null
       <image:width>1200</image:width>
       <image:height>630</image:height>
     </image:image>{% endif %}
-  </url>
+  </url>{% endunless %}
   {% endfor %}
 </urlset>
