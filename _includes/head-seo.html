@@ -1,17 +1,17 @@
 {% if page.layout == 'post' %}
-  {% assign seo_title = page.title | append: ' — flsf' %}
+  {% assign seo_title = page.title %}
   {% assign seo_description = page.description | strip_html | truncate: 160 %}
   {% assign seo_url = site.url | append: page.url %}
   {% assign seo_image = site.url | append: '/' | append: page.image %}
   {% assign seo_type = 'article' %}
 {% elsif page.layout == 'tag' %}
-  {% assign seo_title = page.tag_title | append: ' — flsf' %}
+  {% assign seo_title = page.tag_title %}
   {% assign seo_description = page.tag_description | strip_html | truncate: 160 %}
   {% assign seo_url = site.url | append: page.url %}
   {% assign seo_image = site.url | append: '/' | append: site.imagehome %}
   {% assign seo_type = 'website' %}
 {% elsif page.url == '/404.html' %}
-  {% assign seo_title = 'Страница не найдена — flsf' %}
+  {% assign seo_title = 'Страница не найдена' %}
   {% assign seo_description = site.description | strip_html | truncate: 160 %}
   {% assign seo_url = site.url | append: page.url %}
   {% assign seo_image = site.url | append: '/' | append: site.imagehome %}
@@ -32,7 +32,7 @@
 
 <meta property="og:locale" content="ru_RU" />
 <meta property="og:type" content="{{ seo_type }}" />
-<meta property="og:title" content="{% if page.layout == 'post' %}{{ page.title }}{% else %}{{ seo_title }}{% endif %}" />
+<meta property="og:title" content="{{ seo_title }}" />
 <meta property="og:description" content="{{ seo_description }}" />
 <meta property="og:url" content="{{ seo_url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
@@ -41,7 +41,7 @@
 <meta property="og:image:height" content="630" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{% if page.layout == 'post' %}{{ page.title }}{% else %}{{ seo_title }}{% endif %}" />
+<meta name="twitter:title" content="{{ seo_title }}" />
 <meta name="twitter:description" content="{{ seo_description }}" />
 <meta name="twitter:image" content="{{ seo_image }}" />
 
@@ -71,7 +71,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "flsf",
+    "name": {{ site.title | jsonify }},
     "url": {{ site.url | jsonify }}
   },
   "mainEntityOfPage": {
