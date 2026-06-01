@@ -1,5 +1,5 @@
 ### Jekyll ###
-# _site/
+_site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
@@ -39,3 +39,6 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+### Playwright ###
+.playwright-mcp/
